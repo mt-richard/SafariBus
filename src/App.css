@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -34,5 +38,57 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: #EDEFF9;
+}
+
+.logo{
+  height: 50px;
+}
+.link{
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.link:hover{
+  color: #6AB04C;
+  font-weight: 500;
+}
+li:hover{
+  border-bottom: .15rem solid  #6AB04C;
+}
+.hdn{
+  color: #6AB04C;
+  font-weight: 500;
+  font-size: 1.3rem;
+  position: absolute;
+  display: none;
+}
+.hdn .icon{
+  margin-top: .23em;
+  position: absolute;
+}
+.responce{
+  left: 0;
+  height: 100%;
+  width: 17rem;
+  border-radius: .3rem;
+  padding: 2rem 0;
+  cursor: pointer;
+}
+
+
+
+
+@media (max-width:959px) {
+  .hdn{
+    display: block;
+  }
+  
+  .logodiv{
+    position: absolute;
+    right: 5%;
   }
 }
