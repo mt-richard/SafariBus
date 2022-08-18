@@ -16,8 +16,8 @@ const Home = () => {
           <div className="banner mt-5 w-full">
             <img src={pic1} alt="Home" srcset="" className="photo w-100 h-[21opx] w-[320px] md:w-[320px] md:h-[210px] "/>
             <div className="btns flex">
-                <button className=" text-white rounded  text-[14px] md:text-[15px] md:px-5 py-1  mr-1 md:mr-5">Card Pre-Register</button>
-                <button className=" text-white rounded  text-[14px] md:text-[15px] md:px-5 py-1  mr-1 md:mr-5">Card Topup</button>
+                <button className=" text-white rounded  text-[14px] md:text-[15px] md:px-5 py-1  mr-5 md:mr-5">Card Pre-Register</button>
+                <button className=" text-white rounded  text-[14px] md:text-[15px] md:px-5 py-1  mr-5 md:mr-5">Card Topup</button>
                 <button className=" text-white rounded  text-[14px] md:text-[15px] md:px-5 py-1   md:mr-5">Balance</button>
             </div>
           </div>
