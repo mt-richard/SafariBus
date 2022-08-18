@@ -65,6 +65,7 @@ li:hover{
   font-size: 1.3rem;
   position: absolute;
   display: none;
+  margin-top: 1rem;
 }
 .hdn .icon{
   margin-top: .23em;
@@ -73,13 +74,53 @@ li:hover{
 .responce{
   left: 0;
   height: 100%;
-  width: 17rem;
+  width: 13rem;
+  text-align: justify;
   border-radius: .3rem;
-  padding: 2rem 0;
+  margin:3.2rem 0;
   cursor: pointer;
+  
+}
+.content{
+  padding-top: 4.2rem ;
+  width: 100%;
+}
+.home{
+  gap: 3rem;
+
+}
+.home h1{
+  font-size: 3.4rem;
+  font-weight: 700;
+  padding-top: 2.3rem;
+  line-height: 4rem;
+}
+.home p{
+  padding-top: 1rem;
+}
+.home .btn1{
+  margin-top: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 
+.banner{
+  justify-content: center;
+   width: 100%;
+   
+}
+.home button,
+.btns button{
+  font-weight: 300;
+  padding: .5rem 1rem;
+  background-color: #6AB04C;
+}
+.line{
+  background-color: #6AB04C;
+  width: 130px;
+  height: .19rem;
+}
 
 
 @media (max-width:959px) {
