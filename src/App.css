@@ -82,38 +82,52 @@ li:hover{
   
 }
 .content{
-  padding-top: 4.2rem ;
-  width: 100%;
+  padding-top: 4rem ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 0;
+  padding: 25px;
 }
 .home{
+  width: 100%;
   gap: 3rem;
-
+  justify-content: center;
 }
 .home h1{
-  font-size: 3.4rem;
+  font-size: 3.75rem;
   font-weight: 700;
   padding-top: 2.3rem;
   line-height: 4rem;
 }
 .home p{
-  padding-top: 1rem;
+  padding-top: .5rem;
 }
 .home .btn1{
   margin-top: 1.5rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  width: 50%;
 }
 
 
 .banner{
   justify-content: center;
-   width: 100%;
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 50%;
    
 }
+.banner .photo{
+  width: 340px;
+  height: 200px;
+  margin-left: 2%;
+}
+
 .home button,
 .btns button{
   font-weight: 300;
-  padding: .5rem 1rem;
+  padding: .5rem .8rem;
   background-color: #6AB04C;
 }
 .line{
