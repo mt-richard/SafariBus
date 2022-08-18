@@ -96,7 +96,7 @@ li:hover{
 }
 .home h1{
   font-size: 3.75rem;
-  font-weight: 700;
+  font-weight: 500;
   padding-top: 1.5rem;
   line-height: 4rem;
 }
@@ -107,7 +107,7 @@ li:hover{
   margin-top: 1.5rem;
   padding-right: 1rem;
   padding-left: 1rem;
-  width: 50%;
+  
 }
 
 
