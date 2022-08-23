@@ -6,9 +6,9 @@ const Nav = () => {
 
     let links = [
         {name:"Home",link:"/"},
-        {name:"About Us",link:"/"},
-        {name:"Products",link:"/"},
-        {name:"Request",link:"/"}
+        {name:"About Us",link:"/about"},
+        {name:"Products",link:"/product"},
+        {name:"Request",link:"/request"}
     ];
 let [open,setOpen] =useState(false);
 let [menu,setMenu] =useState();
