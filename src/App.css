@@ -155,10 +155,12 @@ li:hover{
 .about h2{
   color: #6AB04C;
   padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
-.about p{
-  font-weight: 300;
-  
+.about .containerabout p{
+  font-weight: 400;
+  color: rgb(114, 113, 113);
 }
 
 
