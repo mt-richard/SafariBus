@@ -3,7 +3,7 @@ import pic1 from "../images/home.png";
 
 const Home = () => {
     return (  
-        <div className="home md:flex px-[10px] mt-1 md:px-20 py-10">
+        <div className="home md:flex px-[10px] mt-1 md:px-20 py-10" id="home">
           <div className=" md:w-[1000px] content p-[5px] md:p-[25px] w-full text-left md:px-10">
                 
                   <div className="w-100 flex ">
@@ -19,9 +19,9 @@ const Home = () => {
           <div className="banner mt-5 w-full">
             <img src={pic1} alt="Home" srcset="" className="photo w-100 h-[200px] w-[320px] md:w-[320px] md:h-[210px] "/>
             <div className="btns flex">
-                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1  mr-5 md:mr-5">Card Pre-Register</div>
-                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1  mr-5 md:mr-5">Card Topup</div>
-                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1   md:mr-5">Balance</div>
+                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1  mr-5 md:mr-5">Card Pre-Register  <div className="new absolute bg-red-700 rounded px-2 mt-[-40px] ml-[80px]">New</div></div>
+                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1  mr-5 md:mr-5">Card Topup <div className="new absolute bg-gray-700 rounded px-2 mt-[-40px] ml-[50px]">New</div></div>
+                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1   md:mr-5">Balance<div className="new absolute bg-red-700 rounded px-2 mt-[-40px] ml-[30px]">New</div></div>
             </div>
           </div>
         </div>

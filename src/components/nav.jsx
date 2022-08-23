@@ -5,8 +5,8 @@ import logo from "../images/logo.png"
 const Nav = () => {
 
     let links = [
-        {name:"Home",link:"/"},
-        {name:"About Us",link:"/about"},
+        {name:"Home",link:"#home"},
+        {name:"About Us",link:"#about"},
         {name:"Products",link:"/product"},
         {name:"Request",link:"/request"}
     ];
