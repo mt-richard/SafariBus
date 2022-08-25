@@ -5,10 +5,10 @@ import logo from "../images/logo.png"
 const Nav = () => {
 
     let links = [
-        {name:"Home",link:"#home"},
-        {name:"About Us",link:"#about"},
-        {name:"Products",link:"/product"},
-        {name:"Request",link:"/request"}
+        {name:"Home",link:"#home", classUsed:"homelink text-xl link"},
+        {name:"About Us",link:"#about", classUsed:"text-xl link"},
+        {name:"Products",link:"/product", classUsed:"text-xl link"},
+        {name:"Request",link:"/request", classUsed:"text-xl link"}
     ];
 let [open,setOpen] =useState(false);
 let [menu,setMenu] =useState();
@@ -34,7 +34,7 @@ let [menu,setMenu] =useState();
                     <ul className={`md:flex justify-between absolute left-0  inks md:flex md:items-center md:px-12 md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0  w-full md:w-auto ${open ? 'top-20 text-yellow-400 opacity-[1]':'top-[-490px] opacity-100 '}`}>
                         { links.map((e) =>(
                         <li className="md:text-center py-2 px-10 text-gray-500">
-                            <a className="text-xl link" href={e.link}>{e.name}</a>
+                            <a className={e.classUsed} href={e.link}>{e.name}</a>
                         </li>
                         ))}
                     </ul>

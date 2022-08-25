@@ -19,9 +19,9 @@ const Home = () => {
           <div className="banner mt-5 w-full">
             <img src={pic1} alt="Home" srcset="" className="photo w-100 h-[200px] w-[320px] md:w-[320px] md:h-[210px] "/>
             <div className="btns flex py-3">
-                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1  mr-5 md:mr-5">Card Pre-Register  <div className="new absolute bg-red-700 rounded text-[11px] px-2 mt-[-35px] ml-[90px]">New</div></div>
-                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1  mr-5 md:mr-5">Card Topup <div className="new absolute bg-gray-700 rounded text-[11px] px-2 mt-[-35px] ml-[50px]">New</div></div>
-                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1   md:mr-5">Balance<div className="new absolute bg-red-700 rounded px-2 text-[11px] mt-[-35px] ml-[30px]">New</div></div>
+                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1  mr-5 md:mr-5">Card Pre-Register  <div className="new absolute bg-red-700 rounded text-[11px] px-2 mt-[-35px] ml-[110px]">New</div></div>
+                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1  mr-5 md:mr-5">Card Topup <div className="new absolute bg-gray-700 rounded text-[11px] px-2 mt-[-35px] ml-[70px]">New</div></div>
+                <div className=" button text-white rounded  text-[14px] md:text-[15px] px-2 py-2 md:px-5 py-1   md:mr-5">Balance<div className="new absolute bg-red-700 rounded px-2 text-[11px] mt-[-35px] ml-[50px]">New</div></div>
             </div>
           </div>
         </div>
