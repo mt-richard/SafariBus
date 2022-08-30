@@ -24,11 +24,11 @@ const values = () => {
              </div>
 
 
-            <div className="boxes gap-3 md:w-[100%] py-10 px-5 md:px-20 md:flex ">
+            <div className="boxes gap-3 md:w-[100%] py-3 md:py-10 px-5 md:px-20 md:flex ">
                     <div className="flex1 rounded bg-gray-500  md:w-[50%] py-20">
                         <h3 className="text-[40px] h-10 text-green-400">"</h3>
                         <h3 className="text-3xl text-white font-bold">Testimonials</h3>
-                        <p className="text-xl text-white m-2">Success stories of customersfeel </p>
+                        <p className="text-xl text-white m-2">Success stories of customersfeel. </p>
                     </div>
                     <div className="box2 rounded bg-white md:w-[50%]  p-5">
                         
@@ -46,10 +46,8 @@ const values = () => {
                     </div>
             </div>
 
-
-
-            <div className="boxes inputs gap-3 md:w-[100%] py-10 px-5 md:px-20 md:flex ">
-                    <div className="flex1 rounded  px-3 md:w-[50%] py-20">
+            <div className="boxes inputs gap-3 md:w-[100%] py0 md:py-10 px-5 md:px-20 md:flex ">
+                    <div className="flex1 rounded  px-3 md:w-[50%] py-5 md:py-20">
                        
                         <h3 className="text-3xl text-left font-bold">Interested in our services?</h3>
                         <p className="text-xl text-left m-2">free to request a meeting with us.</p>

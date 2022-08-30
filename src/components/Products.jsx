@@ -23,7 +23,7 @@ const Products = () => {
                             <img src={pic4} alt="Images of" className="h-[170px]"/>
                         </div>
                         <h3 className="text-xl text-left px-5 ">SafariBus App</h3>
-                        <p className="text-left text-gray-500  px-5 py-3">This game changer app basically enables a client to either book or hire a bus beforehand. The exciting part …</p>
+                        <p className="text-left text-gray-500  px-5 py-3 font-light">This game changer app basically enables a client to either book or hire a bus beforehand. The exciting part …</p>
                         <a className="mr-[175px] text-green-400 pointer py-2" href="#">Learn More</a>
                     </div>
                     <div className="cont1 bg-white rounded m-5 py-3">
@@ -31,7 +31,7 @@ const Products = () => {
                             <img src={pic3} alt="Images of" className="h-[170px]"/>
                         </div>
                         <h3 className="text-xl text-left px-5 mt-7 ">Safaribus Online</h3>
-                        <p className="text-left text-gray-500  px-5 py-3">You are in an office or you don't have a smartphone, don't worry, you can still book your tickets on the go.</p>
+                        <p className="text-left text-gray-500  px-5 py-3 font-light" >You are in an office or you don't have a smartphone, don't worry, you can still book your tickets on the go.</p>
                         <a className="mr-[175px] text-green-400 pointer py-2" href="#">Learn More</a>
                     </div>
                     <div className="cont1 bg-white rounded m-5 py-3 ">
@@ -39,7 +39,7 @@ const Products = () => {
                             <img src={pic2} alt="Images of" className="h-[170px]"/>
                         </div>
                         <h3 className="text-xl text-left px-5 mt-7">Safaribus Portal</h3>
-                        <p className="text-left text-gray-500  px-5 py-3">Distributed solution designed for service providers in our transport with it's efficient of use..</p>
+                        <p className="text-left text-gray-500  px-5 py-3 font-light">Distributed solution designed for service providers in our transport with it's efficient of use..</p>
                         <a className="mr-[175px] text-green-400 pointer py-2" href="#">Learn More</a>
                     </div>
                     <div className="cont1 bg-white rounded m-5 py-3">
@@ -47,7 +47,7 @@ const Products = () => {
                             <img src={pic1} alt="Images of" className="h-[170px]"/>
                         </div>
                         <h3 className="text-xl text-left px-5 mt-7">Safaribus Cards</h3>
-                        <p className="text-left text-gray-500  px-5 py-3">Integrated next level cards which can be used from paying a bus ticket to paying your gloceries on your local market..</p>
+                        <p className="text-left text-gray-500  px-5 py-3 font-light">Integrated next level cards which can be used from paying a bus ticket to paying your gloceries on your local market..</p>
                         <a className="mr-[175px] text-green-400 pointer py-2" href="#">Learn More</a>
                     </div>
                     <div className="cont1 bg-white rounded m-5 py-3">
@@ -55,7 +55,7 @@ const Products = () => {
                             <img src={pic6} alt="Images of" className="h-[170px]"/>
                         </div>
                         <h3 className="text-xl text-left px-5 mt-7">Safaribus KeyKiosk</h3>
-                        <p className="text-left text-gray-500  px-5 py-3">This is a self-service top- notch payment mode system that provides a great deal of services that are entirely …</p>
+                        <p className="text-left text-gray-500  px-5 py-3 font-light">This is a self-service top- notch payment mode system that provides a great deal of services that are entirely …</p>
                         <a className="mr-[175px] text-green-400 pointer py-2" href="#">Learn More</a>
                     </div>
                      <div className="cont1 bg-white rounded m-5 py-3">
@@ -63,7 +63,7 @@ const Products = () => {
                             <img src={pic5} alt="Images of" className="absolute h-[170px]"/>
                         </div>
                         <h3 className="text-xl text-left px-5 mt-7">Safaribus USSD</h3>
-                        <p className="text-left text-gray-500  px-5 py-3">No smartphone or a computer yet? you can still book your ticket using whatever mobile phone you might be using..'</p>
+                        <p className="text-left text-gray-500  px-5 py-3 font-light">No smartphone or a computer yet? you can still book your ticket using whatever mobile phone you might be using..'</p>
                         <a className="mr-[175px] text-green-400 pointer py-2" href="#">Learn More</a>
                     </div>
                 </div>
