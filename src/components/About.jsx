@@ -5,7 +5,7 @@ const About = () => {
             <div className="all center py-10 md:px-40">
                     <div className="head md:w-[1400px] flex md:px-[28%]">
                         <div className="line hidden md:block md:w-[100px]  mt-7 "></div>
-                        <span className="md:text-[2.125rem] md:w-[350px] px-5 font-bold  text-center">About SafariBus</span>
+                        <span className="md:text-[2.125rem] md:w-[350px] px-10 font-bold  text-center">About SafariBus</span>
                         <div className="line md:w-[100px] mt-4 md:mt-7  "></div>
                 </div>
                 <div className="pa px-5 md:px-40 py-10 " >

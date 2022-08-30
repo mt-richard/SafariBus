@@ -117,6 +117,11 @@ li:hover{
   padding-left: 1rem;
   
 }
+.cobtn{
+  background-color: #6AB04C;
+  cursor: pointer;
+  width: 130px;
+}
 
 
 .banner{
@@ -146,13 +151,20 @@ li:hover{
 
 .line{
   background-color: #6AB04C;
-  width: 120px;
-  height: .2rem;
+  width: 150px;
+  height: .17rem;
 }
 
 .about{
   padding: 0rem;
   
+}
+.dprofile{
+  border-radius: 50%;
+  padding: 1rem;
+  width: 60px;
+  height: 60px;
+  text-align: center;
 }
 
 .ico{
@@ -181,6 +193,24 @@ li:hover{
 .icon{
   color: #EDEFF9;
 }
+
+.inputs input[type=text], [type=email]{
+  border: none;
+  outline: none;
+  width: 95%;
+  padding: .41rem;
+  border-bottom:.1rem solid rgb(172, 170, 170) ;
+}
+
+.inputs input[type=submit]{
+  background-color: #6AB04C;
+  width: 95%;
+  color: white;
+  font-weight: 500;
+}
+
+
+
 
 @media (max-width:959px) {
   .hdn{

@@ -4,7 +4,7 @@ import './App.css';
 import Home from './components/Home';
 import About from './components/About';
 import Products from './components/Products';
-
+import Values from './components/values';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Home/>
       <About/>
       <Products/>
-
+      <Values/>
      
     </div>
   );
