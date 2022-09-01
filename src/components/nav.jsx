@@ -18,7 +18,7 @@ let [menu,setMenu] =useState();
         <nav onClick={() =>setMenu(!menu)} className="w-100 px-5 md:px-10 py-5 md:flex justify-between">
             <div className="logos">
                 <div className="hdn">
-                    <span onClick={()=>setOpen(!open)}  className="font-bold mt-2 icon"><ion-icon name={open ? 'close':'menu'}></ion-icon></span> 
+                    <span onClick={()=>setOpen(!open)}  className="font-bold absolute text-3xl text-green-600"><ion-icon name={open ? 'close':'menu-outline'}></ion-icon></span> 
                      <span className="px-10 " >SafariBus</span>
                 </div>
                 

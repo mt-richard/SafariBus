@@ -8,11 +8,11 @@ const Home = () => {
                 
                   <div className="w-100 flex ">
                   
-                    <h2 className="text-2xl md:text-3xl">Welcome to</h2>
+                    <h2 className="text-2xl md:text-3xl font-light text-gray-700">Welcome to</h2>
                     <div className="line mt-5 ml-5"></div>
                     </div>
-                    <h1 className="text-gray-800 text-2xl md:text-3xl ">SafariBus platform</h1>
-                    <p className="w-full">An integrated platform inspired by technology to contribute to lasting solutions.</p>
+                    <h1 className="text-gray-700 text-2xl md:text-3xl ">SafariBus platform</h1>
+                    <p className="w-full font-light">An integrated platform inspired by technology to contribute to lasting solutions.</p>
                     <button className="btn1 text-white w-[150px] md:w-40 rounded px-5 py-1">Discover More</button>
              
           </div>

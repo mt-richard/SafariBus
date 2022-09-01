@@ -152,7 +152,7 @@ li:hover{
 .line{
   background-color: #6AB04C;
   width: 150px;
-  height: .17rem;
+  height: .12rem;
 }
 
 .about{
@@ -190,9 +190,7 @@ li:hover{
   color: #6AB04C;
 
 }
-.icon{
-  color: #EDEFF9;
-}
+
 
 .inputs input[type=text], [type=email]{
   border: none;
