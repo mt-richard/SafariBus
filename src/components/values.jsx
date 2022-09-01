@@ -13,10 +13,10 @@ const values = () => {
              </div>
              <div className="containerabout text-left ml-10 md:ml-[25%] font-light ">
                  <div className="">
-                     <li><b>Customer centric:</b> To focus on the customers’ needs and surpass their expectations consistently.</li>
-                     <li><b>Innovation:</b> To continuously develop solutions that solve customers’ needs.</li>
-                     <li><b>Integrity and Transparency:</b> To be ethical and sincere in all our transactions.</li>
-                    <li><b>Excellence:</b> To strive relentlessly;- constantly improve ourselves, our teams, and our products and services to become the best.</li>
+                     <p className="mt-2 font-light"><b>Customer centric:</b> To focus on the customers’ needs and surpass their expectations consistently.</p>
+                     <p className="mt-2 font-light"><b>Innovation:</b> To continuously develop solutions that solve customers’ needs.</p>
+                     <p className="mt-2 font-light"><b>Integrity and Transparency:</b> To be ethical and sincere in all our transactions.</p>
+                    <p className="mt-2 font-light"><b>Excellence:</b> To strive relentlessly;- constantly improve ourselves, our teams, and our products and services to become the best.</p>
                  
                  </div>
                  <div className="cobtn text-white pointer md:w-40 bg-green-500 rounded px-5 py-1 mt-5">Contact Us</div>
@@ -51,9 +51,9 @@ const values = () => {
                        
                         <h3 className="text-3xl text-left font-bold">Interested in our services?</h3>
                         <p className="text-xl text-left m-2">free to request a meeting with us.</p>
-                       <li className="text-left ml-5 mt-3 font-light">Streamline all your dairly operations with efficient technologeis.</li> 
-                        <li className="text-left ml-5 mt-3 font-light">Automated ticket control,validation & payment solutions.</li>
-                        <li className="text-left ml-5 mt-3 font-light">Save precious time and invest it where you need it the most.</li>
+                       <p className="text-left ml-5 mt-3 font-light">Streamline all your dairly operations with efficient technologeis.</p> 
+                        <p className="text-left ml-5 mt-3 font-light">Automated ticket control,validation & payment solutions.</p>
+                        <p className="text-left ml-5 mt-3 font-light">Save precious time and invest it where you need it the most.</p>
 
                     </div>
 
