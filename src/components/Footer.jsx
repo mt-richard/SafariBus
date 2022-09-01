@@ -24,12 +24,15 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className="copyright py-5 md:flex gap-80">
+            <div className="copyright py-5 md:flex gap-40">
                 <p className="text-white md:ml-80">Copyright@2022 Centrika All Right Reserved</p>
                 <div className="socialmedia py-5 md:py-0">
                 <a href="#"> <span className="text-green-600 text-2xl ml-5"><ion-icon name="logo-facebook"></ion-icon></span></a>
                 <a href="#"><span className="text-green-600 text-2xl ml-5"><ion-icon name="logo-twitter"></ion-icon></span></a>
                 <a href="#"><span className="text-green-600 text-2xl ml-5"><ion-icon name="logo-instagram"></ion-icon></span></a>
+                </div>
+                <div className="up ml-40 md:ml-60">
+                <a classname="text-white " href="#home"> <span className="text-white text-2xl"><ion-icon name="chevron-up-outline"></ion-icon></span> </a>
                 </div>
             </div>
         </div>

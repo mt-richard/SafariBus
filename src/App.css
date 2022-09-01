@@ -44,7 +44,7 @@
 
 body{
   background-color: #EDEFF9;
-
+  transition: all step-end;
 }
 
 .logo{
@@ -212,6 +212,19 @@ li:hover{
   border-top: .1rem solid rgb(117, 115, 115);
 }
 
+.up{
+  border:.1rem solid #6f706e;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  padding: 1.5rem;
+  
+}
+.up span{
+  position: absolute;
+  margin-top: -.8rem;
+  margin-left: -.7rem;
+}
 
 
 @media (max-width:959px) {
